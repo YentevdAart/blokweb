@@ -58,8 +58,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je startniveau:** -kies uit zwart, rood óf blauw-
 <p>Mijn startniveau is blauw. <p/>
 **Je focus:** -kies uit responsive óf surface plane-
-Mijn focus ligt op extra aandacht voor de surface laag. 
+<p>Mijn focus ligt op extra aandacht voor de surface laag.<p/> 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+<a href="url">https://www.blue-tomato.com/nl-NL/?_$ja=tsid:46407&adword=Google/NL/Branding/Blue-Tomato/blue%20tomato&gclid=EAIaIQobChMIpdyllMPK6wIVgdKyCh3spg9vEAAYASAAEgLxIvD_BwE</a>
+
 
 **Screenshot(s):**
 

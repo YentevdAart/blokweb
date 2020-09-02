@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 
 **Je startniveau:** -kies uit zwart, rood óf blauw-
-Mijn startniveau is blauw. 
+<p>Mijn startniveau is blauw. <p/>
 **Je focus:** -kies uit responsive óf surface plane-
 Mijn focus ligt op extra aandacht voor de surface laag. 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-

@@ -1,0 +1,16 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+nav ul {
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+#topnavigatie {
+    width: 100vw;
+}

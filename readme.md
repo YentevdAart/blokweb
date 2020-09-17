@@ -5,7 +5,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. -blue tomato inspector-
 2. -bron 2-
 3. -...-
 
@@ -45,7 +45,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+<ul>
+<ol>Per persoon reflectie van afgelopen weken.</ol>
+<ol>Vragen over HTML, CSS, JS</ol>
+<ol>Algemene vragen</ol>
+<ol>Plan van aanpak voor voortgang 2 p.p.</ol>
+</ul>
 
 ### Verslag van meeting
 
@@ -60,7 +65,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je focus:** -kies uit responsive óf surface plane-
 <p>Mijn focus ligt op extra aandacht voor de surface laag.</p> 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
-
+<a href="https://www.blue-tomato.com/nl-NL/?_$ja=tsid:46407&adword=Google/NL/Branding/Blue-Tomato/blue%20tomato&gclid=EAIaIQobChMIoOLP84rv6wIVVc3tCh0p9wjhEAAYASAAEgLXHPD_BwE">
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screen_bluetomato.png)

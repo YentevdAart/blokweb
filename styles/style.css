@@ -3,66 +3,147 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    display: block;
-    background-color: #eaeaea;
+    display:block;
+    background-color: #f7f7f7;
     margin-right: auto;
     margin-left: auto;
+    height: 60px;
     padding-left: 10px;
     padding-right: 10px;
 
 }
 
-#zoeken {
+#container_topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0px;
+    flex: 0px 150px;
+}
+
+#logobt {
+    width: 100%;
+    max-width: 150px;
+    max-height: 41.85px;
+
+}
+
+#zoekcontainer {
+    position: absolute;
+    background-color: #f7f7f7;
+    width: 45%;
+}
+
+#zoek_innercontainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 12px 10px 12px;
+    margin: 0;
+    height: 100%;
+}
+
+#vergrootglas {
+    padding: 5px 7px;
+    max-height: 35px;
+    max-width: 35px;
     background: #fff;
-    min-width: 35px;
-    height: 35px;
     border: 0;
     margin: 0;
     left: 0;
 }
 
-#zoekcontainer {
+#zoekbalk {
     display: flex;
-    flex-grow: 1;
-    align-items: center;
-    padding: 12px 20px;
-    margin: 0;
-    background-color: #eaeaea;
-
+    flex-direction: row;
+    background: #fff;
+    line-height: 35px;
+    /*padding: 0 !important;
+    margin: 0 !important;
+    opacity: 1;
+    flex-grow: 1;*/
+}
+#zoekbalkje{
+    border: none;
+    font-weight: bold; 
+    min-width: 75px;
+     width: 100%;
+}
+ 
 }
 
-nav ul {
-
+#topnavigatie ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-
+*/
 #topnavigatie {
+   position: relative;
     width: 100vw;
+    height: 60px;
+    background-color: #fff;
+    padding: 15px 0px 5px;
+    
+}
+#topnavigatie ul li img:nth-of-type(1){
+    width: 25px;
+    height: 25px;
+}
+#topnavigatie ul li:nth-of-type(2){
+    width: 28px;
+    height: 28px;
+}
+
+#topnavigatie ul li img:nth-of-type(3){
+    width: 24px;
+    height: 24px;
+}
+#topnavigatie ul li img:nth-of-type(4){
+    width: 26px;
+    height: 26px;
+}
+
+#topnavigatie ul li a{
+    text-decoration: none; 
 }
 
 .home_p_slider {
     list-style: none;
 }
-
-.slider {
+#slider_img{
+    width:100%;
+}
+#slider_textbox {
+    position: absolute;
+    padding: 10px 10px;
+    overflow: hidden;
     width: 100%;
-    height: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
 
-/*.slider_textbox{
+#textbox_container{
+    text-align: center;
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
     color: #333;
-    position: absolute;
-    opacity: 50%;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    overflow: hidden; 
-}*/
+}
+h2{
+color: #fff;
+/*display: block;*/
+font-size: 0.9375rem;
+line-height: 1.0625rem;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+
+}
 #shop_categorie p {
     position: absolute;
     width: 270px;
@@ -78,11 +159,11 @@ nav ul {
 }
 
 #shop_categorie {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
 
 #shop_categorie li {
@@ -90,4 +171,18 @@ nav ul {
     float: left;
     padding: 0 10px 10px 0;
 
+}
+
+#merk_box{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25%; 
+    
+}
+#merk_box li{
+    list-style: none;
+}
+#merk_box li img{
+    width: 82.75px;
+    height: 49.65px;
 }

@@ -13,67 +13,78 @@
 
 <body>
     <header>
-        <img id="logobt" src="images/img_home_pagina/bt-logo.svg" alt="bluetomato logo">
 
-
+        <div id="container_topbar">
+            <img id="logobt" src="images/img_home_pagina/bt-logo.svg" alt="bluetomato logo">
+        </div>
+        <div id="zoekcontainer">
+            <!--- svg-icon --->
+            <div id="zoek_innercontainer">
+                <div id="zoekbalk">
+                    <img id="vergrootglas" src="images/img_home_pagina/Schermafbeelding%20search_icon.png" alt="vergrootglas">
+                    <input id="zoekbalkje" type="search" placeholder="Jouw zoekpoging">
+                </div>
+            </div>
+        </div>
     </header>
     <main>
-
-
         <nav id="topnavigatie">
+            <div id="navcontainer">
+                <ul>
+                    <li>
+                        <img src="images/img_home_pagina/Schermafbeelding%20menu.png" alt="menu">
+                        <a href=#menu>Menu</a>
+                    </li>
+                    <li>
 
-            <!--- inner container -->
+                        <img src="images/img_home_pagina/Schermafbeelding%20account.png" alt="account">
+                        <a href=#account>Account</a>
+                    </li>
+                    <li>
 
-            <!--- search button--->
-            <div id="zoekcontainer">
-                <!--- svg-icon --->
-                <img id="zoeken" src="images/img_home_pagina/Schermafbeelding%20search_icon.png" alt="vergrootglas">
-                <!--- width="10" height="10" viewBox="0 0 25 25" fill="#333" fill-rule="evenodd"--->
-                <input id="headerZoek" class="zoekbalk" type="search" placeholder="Jouw zoekpoging">
+                        <img src="images/img_home_pagina/Schermafbeelding%20hartje.png" alt="verlanglijst">
+                        <a href=#verlanglijst>Verlanglijst</a>
+                    </li>
+                    <li>
+
+                        <img src="images/img_home_pagina/Schermafbeelding%20winkelwagen.png" alt="winkelwagen">
+                        <a href=#winkelwagen>Winkelwagen</a>
+                    </li>
+                </ul>
             </div>
-            <ul>
-                <li>
-                    
-                    <img src="images/img_home_pagina/Schermafbeelding%20menu.png" alt="menu">
-                    <a href=#menu>Menu</a>
-                </li>
-                <li>
-                   
-                    <img src="images/img_home_pagina/Schermafbeelding%20account.png" alt="account">
-                    <a href=#account>Account</a>
-                </li>
-                <li>
-                    
-                    <img src="images/img_home_pagina/Schermafbeelding%20hartje.png" alt="verlanglijst">
-                    <a href=#verlanglijst>Verlanglijst</a>
-                </li>
-                <li>
-                    
-                    <img src="images/img_home_pagina/Schermafbeelding%20winkelwagen.png" alt="winkelwagen">
-                    <a href=#winkelwagen>Winkelwagen</a>
-                </li>
-            </ul>
         </nav>
+
         <section id="homepage" class="main">
             <ul class="home_p_slider">
-                <li class="slider" id="slider1"><img src="images/img_home_pagina/slider_img1.jpeg" alt="surfer on wave"></li>
+                <li class="slider" id="slider1"><img id="slider_img" src="images/img_home_pagina/slider_img1.jpeg" alt="surfer on wave"></li>
                 <!---<li class="slider" id="slider2"><img src="images/img_home_pagina/slider_img2.jpeg" alt="lets get ready"></li>
                 <li class="slider" id="slider3"><img src="images/img_home_pagina/slider_img3.jpeg" alt="new binnen"></li>
                 <li class="slider" id="slider4"><img src="images/img_home_pagina/slider_img4.jpeg" alt="skateboarder"></li>-->
             </ul>
         </section>
-        <section class="sider_textbox">
-            <h2 class="koptekst">Alterego: Sustainable Surfboards</h2>
-            <a href="#buttonsurfboards">Surfboards</a>
-            <!---button--->
+        <section id="slider_textbox">
+            <div id="textbox_container">
+                <h2 class="koptekst">Alterego: Sustainable Surfboards</h2>
+                <a href="#buttonsurfboards">Surfboards</a>
+                <!---button--->
+            </div>
         </section>
         <ul id="shop_categorie">
             <li><img src="images/img_home_pagina/streetwear.jpeg" alt="street wear">
-                <a href="buttonStreetwear"></a><p>Streetwear</p></li>
-            <li><img src="images/img_home_pagina/schoenen.jpeg" alt="schoenen"> <a href="buttonSchoenen"></a><p>Schoenen</p></li>
-            <li><img src="images/img_home_pagina/skate.jpeg" alt="skate"><a href="buttonSkate"></a><p>Skate</p></li>
-            <li><img src="images/img_home_pagina/surfman.jpeg" alt="surf man"><a href="buttonSurfman"></a><p>Surf</p></li>
+                <a href="buttonStreetwear"></a>
+                <p>Streetwear</p>
+            </li>
+            <li><img src="images/img_home_pagina/schoenen.jpeg" alt="schoenen"> <a href="buttonSchoenen"></a>
+                <p>Schoenen</p>
+            </li>
+            <li><img src="images/img_home_pagina/skate.jpeg" alt="skate"><a href="buttonSkate"></a>
+                <p>Skate</p>
+            </li>
+            <li><img src="images/img_home_pagina/surfman.jpeg" alt="surf man"><a href="buttonSurfman"></a>
+                <p>Surf</p>
+            </li>
         </ul>
+
         <ul id="merk_box">
             <li><img src="images/img_home_pagina/vans.png" alt="vans"><a href="buttonVans"></a></li>
             <li><img src="images/img_home_pagina/burton.png" alt="burton"><a href="buttonBurton"></a></li>
